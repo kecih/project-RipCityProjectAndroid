@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/app_background" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/im_fell_great_primer_sc"
+        android:text="Rip City Project"
+        android:textColor="#FF0000"
+        android:textSize="20sp"
+        app:layout_anchor="@+id/toolbar"
+        app:layout_anchorGravity="center" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="63dp"
+        android:layout_height="46dp"
+        app:layout_anchor="@+id/toolbar"
+        app:layout_anchorGravity="end|center"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="5dp"
+        app:srcCompat="@drawable/portland" />
+
+    <ImageView
+
+        android:id="@+id/imageView3"
+        android:layout_width="63dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="5dp"
+        app:layout_anchor="@+id/toolbar"
+        app:layout_anchorGravity="start|center"
+        app:srcCompat="@drawable/portland" />
+
+    <ImageButton
+        android:id="@+id/btn_back"
+        android:layout_width="46dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/back" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="-30dp"
+        android:src="@drawable/news">
+
+    </ImageView>
+
+    <FrameLayout
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="140dp"
+        android:background="@drawable/result">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="0dp"
+            android:fontFamily="@font/im_fell_great_primer_sc"
+            android:text="News"
+            android:textColor="#FF0000"
+            android:textSize="31sp" />
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/button_news"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="310dp"
+        android:alpha="0.4"
+        android:background="@drawable/news"></Button>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="310dp"
+        android:fontFamily="@font/im_fell_great_primer_sc"
+        android:text="Lillards Turn to Music "
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_marginTop="380dp"
+        android:background="@drawable/shape_coba">
+
+        <TextView
+            android:id="@+id/textView35"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/frank_ruhl_libre"
+            android:text="The All-Star point guard turned part of his suite into a mini recording studio at Disney's Wide World of Sports Complex, where his team will make a push for a playoff berth. The league constructed a social bubble to resume the NBA season and protect 22 teams from COVID-19 while at the resort, which features several activities such as walking trails, a bowling alley and a lake to fish or boat."
+            android:textAlignment="center"
+            android:textColor="#FF0000"
+            android:textSize="15sp" />
+    </FrameLayout>
+</RelativeLayout>
